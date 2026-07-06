@@ -1,0 +1,14 @@
+# Ignore model weights (they are too large for GitHub)
+*.gguf
+*.bin
+*.pth
+*.safetensors
+
+# Ignore Ollama's internal cache folders
+ollama_models/
+blobs/
+manifests/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
